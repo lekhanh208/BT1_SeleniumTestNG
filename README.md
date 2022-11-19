@@ -1,4 +1,4 @@
-# BT1_SeleniumTestNG
+# BT_SeleniumTestNG
 BÀI TẬP 1 CHẠY TRÊN PROJECT MAVEN
 (Bắt đầu từ bài học số 9 trở về sau)
 
