@@ -9,11 +9,11 @@ import org.testng.asserts.SoftAssert;
 
 public class assertAddCategory extends AddCategory {
     @Test(priority = 3)
-    public void checkCategoryNameAssert() throws InterruptedException {
+    public void checkCategoryNameAssert(){
         System.out.println("**** Check Category Name is added to table by Assert ****");
         //Search category name added and check text by Assert
-        search(name);
-        checkbyAssert(name);
+        search(categoryName);
+        checkbyAssert(categoryName);
     }
 
     @Test(priority = 4)
