@@ -41,6 +41,23 @@ Gợi ý:
 
         + Delete thì sau khi xoá xong cần check lại là element đó không tồn tại (chỉ trong buổi học)
 To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+
+BÀI TẬP 4 VẬN DỤNG ACTIONS ROBOT CLASS
+
+- Add Product
+ + Select giá trị Category ở BT3
+ + Chọn Colors >= 2 màu (dùng Ctrl + A và Delete để hỗ trợ chọn màu và xoá màu)
+ + Verify Text của Colors trên (Assert) (chỉ cần check số lượng color hiển thị thôi)
+ + Dùng biến toàn cục để lưu giá trị Data có thay đổi khi cần để dễ chỉnh sửa khi chạy lại nhiều lần
+To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+ 
+BÀI TẬP 4 PHẦN MỞ RỘNG
+
+- Tạo luồng chạy liên tục từ Add Category tới Add Product
+     + Sử dụng lại giá trị của Category vừa add cho Product (không điền giá trị category bằng tay)
+To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+ 
+
  
 
  
